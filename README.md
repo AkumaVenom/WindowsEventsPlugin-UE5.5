@@ -65,6 +65,8 @@ Get Win Event Manager
 
 This returns the singleton that broadcasts all OS events.
 
+assign events from "Win Event Manager" to beginplay to make it fire the events properly, refer to the example image above.
+
 Exposed Blueprint Events
 
 These events can be assigned/bound to beginplay directly in Blueprint:
