@@ -1,0 +1,16 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Windows Events Listener",
+  "Description": "Provides window and notification event detection for Unreal Engine.",
+  "Category": "System",
+  "EnabledByDefault": true,
+  "Modules": [
+    {
+      "Name": "WindowsEventsPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
