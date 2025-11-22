@@ -10,6 +10,8 @@ Plugin Created By Justin Gilbert / AkumaVenom
 
 Donation/Tips https://www.paypal.me/akumacreative
 
+AkumaVenom's Discord: https://discord.gg/Uf8Q8usSmk
+
 =========================================================================
 
 A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection.
