@@ -2,7 +2,7 @@
 
 WindowsEventsPlugin – Unreal Engine 5.5
 
-<img width="1998" height="1274" alt="Screenshot 2025-11-23 054819" src="https://github.com/user-attachments/assets/4c28e3bb-3ad8-4331-9360-ece4629c842c" />
+<img width="3839" height="2064" alt="Screenshot 2025-11-23 072423" src="https://github.com/user-attachments/assets/e5dd8373-3e56-4a68-867e-e3f5ac2b07ac" />
 
 =========================================================================
 
