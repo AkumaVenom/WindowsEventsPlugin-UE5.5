@@ -2,7 +2,7 @@
 
 WindowsEventsPlugin – Unreal Engine 5.5
 
-<img width="1998" height="1274" alt="Screenshot 2025-11-23 054819" src="https://github.com/user-attachments/assets/4c28e3bb-3ad8-4331-9360-ece4629c842c" />
+<img width="2764" height="674" alt="Screenshot 2025-11-23 103208" src="https://github.com/user-attachments/assets/b1facc8d-a197-465a-8e59-27d5d0212658" />
 
 =========================================================================
 
@@ -65,9 +65,11 @@ Get Win Event Manager
 
 This returns the singleton that broadcasts all OS events.
 
+assign events from "Win Event Manager" to beginplay to make it fire the events properly, refer to the example image above.
+
 Exposed Blueprint Events
 
-These events can be bound directly in Blueprint:
+These events can be assigned/bound to beginplay directly in Blueprint:
 
 On Active Window Changed
 Outputs:
@@ -103,7 +105,6 @@ Outputs:
 App (string)
 
 Text (string)
-Detects Windows toast notifications (e.g., Discord, Chrome, Steam, system alerts).
 
 =========================================================================
 
@@ -123,6 +124,10 @@ Compatibility
 • Windows 10 / Windows 11
 • Works in PIE and Packaged Builds
 • No third-party libraries required
+
+=========================================================================
+
+
 
 =========================================================================
 
