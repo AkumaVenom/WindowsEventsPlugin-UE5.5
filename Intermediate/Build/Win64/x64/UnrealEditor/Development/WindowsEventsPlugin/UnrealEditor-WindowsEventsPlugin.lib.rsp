@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WindowsEventsPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Intermediate\Build\Win64\x64\DesktopPalEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.RTTI.ValApi.Cpp20.h.obj"
+"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Plugins\WindowsEventsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\WindowsEventsPlugin\Module.WindowsEventsPlugin.cpp.obj"
+"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Plugins\WindowsEventsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\WindowsEventsPlugin\WindowsEventsPlugin.cpp.obj"
+"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Plugins\WindowsEventsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\WindowsEventsPlugin\WinEventManager.cpp.obj"
+"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Plugins\WindowsEventsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\WindowsEventsPlugin\Default.rc2.res"
+/OUT:"C:\Users\Akuma\OneDrive\Documents\Unreal Projects\DesktopPal-UE5 v0.0.19.2a\Plugins\WindowsEventsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\WindowsEventsPlugin\UnrealEditor-WindowsEventsPlugin.lib"

@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Windows Events Listener",
+	"Description": "Detects Windows window + notification events.",
+	"Category": "Windows Tools",
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "WindowsEventsPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"CreatedBy": "Justin Gilbert / AkumaVenom",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
