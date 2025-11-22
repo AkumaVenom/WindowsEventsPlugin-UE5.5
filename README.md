@@ -18,14 +18,23 @@ This plugin exposes Windows window events and toast notifications to Blueprint s
 Features
 
 • Detect when the active window changes (Alt-Tab, app focus changes, etc.)
+
 • Detect when any window opens
+
 • Detect when any window closes
+
 • Detect when a window’s title text changes (browser tab changes, document titles, etc.)
+
 • Detect Windows 10/11 toast notifications
+
 • Outputs window titles, process paths, app names, and notification text
+
 • 100% Blueprint accessible
+
 • No polling – uses lightweight OS-level event hooks
+
 • Supports Windows 10 and Windows 11
+
 • Works in packaged builds
 
 =========================================================================
