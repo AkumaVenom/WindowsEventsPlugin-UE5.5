@@ -59,56 +59,96 @@ Restart the editor if requested.
 
 =========================================================================
 
-Blueprint Usage
+All Windows events and text extraction features are accessed through the
+UWinEventManager Blueprint-accessible class.
 
-All events come from the UWinEventManager Blueprint-accessible class.
+Getting the Manager Instance
 
-To get the manager instance, call:
+To access the plugin, call:
 
 Get Win Event Manager
 
-This returns the singleton that broadcasts all OS events.
+This returns the singleton instance that:
 
-assign events from "Win Event Manager" to beginplay to make it fire the events properly, refer to the example image above.
+Listens for OS-level window events
+
+Broadcasts Blueprint events
+
+Provides functions like GetActiveWindowText()
+
+Required Setup (Important)
+
+On Begin Play, you must assign the WinEventManager events.
+This ensures the plugin correctly registers its Windows hooks.
+
+Example flow:
+
+Begin Play →
+    Get Win Event Manager →
+        Assign On Active Window Changed
+        Assign On Window Title Changed
+        Assign On Window Opened
+        Assign On Window Closed
+        Assign On Windows Notification
+        
+(Using the Assign/Bind nodes is required. Do not use the raw events from the class panel.)
+
+=========================================================================
 
 Exposed Blueprint Events
 
-These events can be assigned/bound to beginplay directly in Blueprint:
+These events can be assigned on Begin Play and will fire automatically whenever the corresponding Windows-level event occurs.
 
 On Active Window Changed
+
+Fires whenever the user switches to a different window.
+
 Outputs:
 
-Title (string)
+Title (string) — window title
 
-Process (string)
+Process (string) — process name (chrome.exe, notepad.exe, etc.)
 
 On Window Opened
+
+Fires when a new top-level window is created.
+
 Outputs:
 
-Title (string)
+Title
 
-Process (string)
+Process
 
 On Window Closed
+
+Fires when a top-level window is destroyed.
+
 Outputs:
 
-Title (string)
+Title
 
-Process (string)
+Process
 
 On Window Title Changed
+
+Fires when the title text of the active window changes.
+Useful for browser tab changes.
+
 Outputs:
 
-Title (string)
+Title
 
-Process (string)
+Process
 
 On Windows Notification
+
+Fires when a system toast notification is received (if enabled globally on Windows).
+
 Outputs:
 
-App (string)
+App (string) — source application
 
-Text (string)
+Text (string) — notification body text
 
 =========================================================================
 
