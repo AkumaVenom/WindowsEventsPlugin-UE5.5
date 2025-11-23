@@ -14,7 +14,7 @@ AkumaVenom's Discord: https://discord.gg/Uf8Q8usSmk
 
 =========================================================================
 
-A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection.
+A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection 100% completely local without internet needed.
 This plugin exposes Windows window events and toast notifications to Blueprint so you can react to user activity, detect open/closed applications, and receive native notification text inside Unreal Engine.
 
 Features
