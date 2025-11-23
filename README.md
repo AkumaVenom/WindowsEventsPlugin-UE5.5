@@ -43,7 +43,7 @@ Features
 
 Upcoming v2.0 Roadmap:
 
-✔ Pull Entire webpage text to Unreal Engine at runtime
+✔ Pull Entire webpage/browser/notepad text to Unreal Engine at runtime
 
 ✔ All visible DOM text
 
@@ -52,6 +52,18 @@ Upcoming v2.0 Roadmap:
 ✔ Works on Chrome/Edge/Firefox/notepad/ect
 
 ✔ Works in PIE and packaged
+
+✔ 100% completely local without internet needed.
+
+It will pull text from things like:
+
+🌐 Web browsers (Chrome / Edge / Firefox / etc.)
+
+📄 Notepad / text editors
+
+🗂 Some Explorer views / file lists / labels
+
+⚙️ Other apps that expose text via UI Automation
 
 =========================================================================
 
