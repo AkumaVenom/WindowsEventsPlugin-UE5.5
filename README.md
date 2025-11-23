@@ -14,7 +14,7 @@ AkumaVenom's Discord: https://discord.gg/Uf8Q8usSmk
 
 =========================================================================
 
-A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection.
+A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection 100% completely local without internet needed.
 This plugin exposes Windows window events and toast notifications to Blueprint so you can react to user activity, detect open/closed applications, and receive native notification text inside Unreal Engine.
 
 Features
@@ -38,6 +38,42 @@ Features
 • Supports Windows 10 and Windows 11
 
 • Works in packaged builds
+
+=========================================================================
+
+Upcoming v2.0 Roadmap:
+
+✔ Pull Entire webpage/browser/notepad text to Unreal Engine at runtime
+
+✔ All visible DOM text
+
+✔ Updates every time tab changes
+
+✔ Works on Chrome/Edge/Firefox/notepad/ect
+
+✔ Works in PIE and packaged
+
+✔ 100% completely local without internet needed.
+
+It will pull text from things like:
+
+🌐 Web browsers (Chrome / Edge / Firefox / etc.)
+
+📄 Notepad / text editors
+
+🗂 Some Explorer views / file lists / labels
+
+⚙️ Other apps that expose text via UI Automation
+
+Will Work With:
+
+Text editors: Notepad, Notepad++, VSCode (partial)
+
+Windows Explorer: folder names, file names, labels
+
+Many normal Windows apps: Settings app, dialogs, installers
+
+Any UI that exposes an accessibility text tree via UI Automation
 
 =========================================================================
 
@@ -124,10 +160,6 @@ Compatibility
 • Windows 10 / Windows 11
 • Works in PIE and Packaged Builds
 • No third-party libraries required
-
-=========================================================================
-
-
 
 =========================================================================
 
