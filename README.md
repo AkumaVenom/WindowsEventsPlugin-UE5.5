@@ -65,6 +65,16 @@ It will pull text from things like:
 
 ⚙️ Other apps that expose text via UI Automation
 
+Will Work With:
+
+Text editors: Notepad, Notepad++, VSCode (partial)
+
+Windows Explorer: folder names, file names, labels
+
+Many normal Windows apps: Settings app, dialogs, installers
+
+Any UI that exposes an accessibility text tree via UI Automation
+
 =========================================================================
 
 Installation
