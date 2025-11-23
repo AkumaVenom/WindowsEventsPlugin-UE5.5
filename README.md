@@ -155,19 +155,30 @@ Text (string) — notification body text
 Example Workflow
 
 • Detect when the user switches to Chrome or another program.
+
 • React when a new application window opens.
+
 • Monitor browser title changes to detect which site or tab is active.
+
 • Trigger events when the user closes an app.
+
 • Capture notification text from any app (Discord message, email alerts, etc.)
+
+• Capture entire webpage and notepad text contents.
 
 =========================================================================
 
 Compatibility
 
 • Unreal Engine 5.5+
+
 • Windows 10 / Windows 11
+
 • Works in PIE and Packaged Builds
+
 • No third-party libraries required
+
+• 100% Offline
 
 =========================================================================
 
