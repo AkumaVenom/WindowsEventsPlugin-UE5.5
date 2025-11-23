@@ -127,10 +127,6 @@ Compatibility
 
 =========================================================================
 
-
-
-=========================================================================
-
 License
 
 Free to use, modify, and distribute in any project but be sure to give credit to "Justin Gilbert/AkumaVenom".
