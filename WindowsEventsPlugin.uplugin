@@ -1,0 +1,16 @@
+{
+  "FileVersion": 3,
+  "Version": 4,
+  "VersionName": "2.3",
+  "FriendlyName": "Windows Events Plugin",
+  "Description": "Exposes Windows OS window events, notifications, and active window text to Unreal Engine Blueprints.",
+  "Category": "System",
+  "EnabledByDefault": true,
+  "Modules": [
+    {
+      "Name": "WindowsEventsPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
