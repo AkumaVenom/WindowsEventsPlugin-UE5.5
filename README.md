@@ -4,6 +4,8 @@ WindowsEventsPlugin – Unreal Engine 5.5
 
 <img width="2764" height="674" alt="Screenshot 2025-11-23 103208" src="https://github.com/user-attachments/assets/b1facc8d-a197-465a-8e59-27d5d0212658" />
 
+<img width="2952" height="1356" alt="11" src="https://github.com/user-attachments/assets/5a019ab8-2883-4c20-80d8-372076dd097e" />
+
 =========================================================================
 
 Plugin Created By Justin Gilbert / AkumaVenom
@@ -15,7 +17,7 @@ AkumaVenom's Discord: https://discord.gg/Uf8Q8usSmk
 =========================================================================
 
 A lightweight Unreal Engine 5.5 plugin that provides real-time Windows operating system event detection 100% completely local without internet needed.
-This plugin exposes Windows window events and toast notifications to Blueprint so you can react to user activity, detect open/closed applications, and receive native notification text inside Unreal Engine.
+This plugin exposes Windows window events and text contents and toast notifications to Blueprint so you can react to user activity, detect open/closed applications, and receive native notification text inside Unreal Engine.
 
 Features
 
@@ -29,6 +31,8 @@ Features
 
 • Detect Windows 10/11 toast notifications
 
+• Outputs Entire webpage/browser/notepad text to Unreal Engine at runtime
+
 • Outputs window titles, process paths, app names, and notification text
 
 • 100% Blueprint accessible
@@ -38,42 +42,6 @@ Features
 • Supports Windows 10 and Windows 11
 
 • Works in packaged builds
-
-=========================================================================
-
-Upcoming v2.0 Roadmap:
-
-✔ Pull Entire webpage/browser/notepad text to Unreal Engine at runtime
-
-✔ All visible DOM text
-
-✔ Updates every time tab changes
-
-✔ Works on Chrome/Edge/Firefox/notepad/ect
-
-✔ Works in PIE and packaged
-
-✔ 100% completely local without internet needed.
-
-It will pull text from things like:
-
-🌐 Web browsers (Chrome / Edge / Firefox / etc.)
-
-📄 Notepad / text editors
-
-🗂 Some Explorer views / file lists / labels
-
-⚙️ Other apps that expose text via UI Automation
-
-Will Work With:
-
-Text editors: Notepad, Notepad++, VSCode (partial)
-
-Windows Explorer: folder names, file names, labels
-
-Many normal Windows apps: Settings app, dialogs, installers
-
-Any UI that exposes an accessibility text tree via UI Automation
 
 =========================================================================
 
