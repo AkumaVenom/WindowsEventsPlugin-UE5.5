@@ -41,6 +41,20 @@ Features
 
 =========================================================================
 
+Upcoming v2.0 Roadmap:
+
+✔ Pull Entire webpage text to Unreal Engine at runtime
+
+✔ All visible DOM text
+
+✔ Updates every time tab changes
+
+✔ Works on Chrome/Edge/Firefox/notepad/ect
+
+✔ Works in PIE and packaged
+
+=========================================================================
+
 Installation
 
 Place the plugin folder here:
