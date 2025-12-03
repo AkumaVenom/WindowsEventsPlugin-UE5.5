@@ -2,6 +2,8 @@
 
 WindowsEventsPlugin – Unreal Engine 5.5
 
+Copyright (c) 2025 Justin Gilbert (AkumaVenom)
+
 <img width="2764" height="674" alt="Screenshot 2025-11-23 103208" src="https://github.com/user-attachments/assets/b1facc8d-a197-465a-8e59-27d5d0212658" />
 
 <img width="2952" height="1356" alt="11" src="https://github.com/user-attachments/assets/5a019ab8-2883-4c20-80d8-372076dd097e" />
